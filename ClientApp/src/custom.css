@@ -1,0 +1,29 @@
+/* Provide sufficient contrast against white background */
+a {
+    color: #d60303;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+.main-container{
+    width:100vw;
+    max-width:100vw;
+    padding:0;
+}
+.creative-shape img{
+    width:100vw;
+}
+.main-container .home-section .home-info {
+    vertical-align:unset;
+        padding-top: calc(50vh - 400px);
+}
+.section-bottom-padding{
+    padding-bottom:100px;
+}
