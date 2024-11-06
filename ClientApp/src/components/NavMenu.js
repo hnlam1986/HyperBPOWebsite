@@ -48,10 +48,12 @@ export class NavMenu extends Component {
         window.location.reload();
     }
     getLanguage() {
-        if (localStorage.getItem('i18nextLng') && localStorage.getItem('i18nextLng') != "vn") {
-            return "US";
-        } else {
+        if (localStorage.getItem('i18nextLng') && localStorage.getItem('i18nextLng') == "vn") {
             return "VN";
+        } else if (localStorage.getItem('i18nextLng') && localStorage.getItem('i18nextLng') == "jp") {
+            return "JP";
+        } else {
+            return "US";
         }
     }
     
@@ -66,7 +68,7 @@ export class NavMenu extends Component {
                             <div className="language-option-mean-bar">
                                 <div className="lang-option">
                                     <ReactFlagsSelect className="ddLang"
-                                        countries={["US", "VN"]}
+                                        countries={["US", "VN","JP"]}
                                         selected={this.getLanguage()}
                                         onSelect={this.handleChange.bind(this)}
 
@@ -145,7 +147,7 @@ export class NavMenu extends Component {
                                 <div className="language-option">
                                     <div className="lang-option">
                                         <ReactFlagsSelect className="ddLang"
-                                            countries={["US", "VN"]}
+                                            countries={["US", "VN", "JP"]}
                                             selected={this.getLanguage()}
                                             onSelect={this.handleChange.bind(this)}
                                         
