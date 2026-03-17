@@ -306,7 +306,7 @@ export class ImageProcessing extends Component {
                                     <h2>Digitally Transform &amp; Grow Your Business</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud consectetur voluptatem accusantium doloremque adipiscing elit.</p>
                                     <div className="hire-btn">
-                                        <a className="default-btn" href="tel:12345678">Call Now<span></span></a>
+                                        <a className="default-btn" href="tel:+84776117770">Call Now<span></span></a>
                                         <a className="default-btn-one" href="contact.html">Contact Us<span></span></a>
                                     </div>
                                 </div>

@@ -111,18 +111,18 @@ export class NavMenu extends Component {
                                             <li className="nav-item">
                                                 <Link to="/document-scanning" className="nav-link">{i18n.t("doc_scanning")}</ Link>
                                             </li>
-                                            <li className="nav-item">
-                                                <Link to="/document-adjusting" className="nav-link">{i18n.t("doc_adjusting")}</ Link>
-                                            </li>
-                                            <li className="nav-item">
-                                                <Link to="/coming-soon" className="nav-link">{i18n.t("img_processing")}</ Link>
-                                            </li>
-                                            <li className="nav-item">
-                                                <Link to="/data-labeling" className="nav-link">{i18n.t("data_labeling")}</ Link>
-                                            </li>
-                                            <li className="nav-item">
-                                                <Link to="/coming-soon" className="nav-link">{i18n.t("call_center")}</ Link>
-                                            </li>
+                                            {/*<li className="nav-item">*/}
+                                            {/*    <Link to="/document-adjusting" className="nav-link">{i18n.t("doc_adjusting")}</ Link>*/}
+                                            {/*</li>*/}
+                                            {/*<li className="nav-item">*/}
+                                            {/*    <Link to="/coming-soon" className="nav-link">{i18n.t("img_processing")}</ Link>*/}
+                                            {/*</li>*/}
+                                            {/*<li className="nav-item">*/}
+                                            {/*    <Link to="/data-labeling" className="nav-link">{i18n.t("data_labeling")}</ Link>*/}
+                                            {/*</li>*/}
+                                            {/*<li className="nav-item">*/}
+                                            {/*    <Link to="/coming-soon" className="nav-link">{i18n.t("call_center")}</ Link>*/}
+                                            {/*</li>*/}
                                         </ul>
                                     </li>
                                     {/*<li className="nav-item">*/}

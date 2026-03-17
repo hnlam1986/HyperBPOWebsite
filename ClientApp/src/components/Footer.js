@@ -64,10 +64,10 @@ export class Footer extends Component {
                                         <ul className="footer-quick-links">
                                             <li><Link to="/data-entry">{i18n.t("data_entry")}</Link></li>
                                             <li><Link to="/document-scanning">{i18n.t("doc_scanning")}</Link></li>
-                                            <li><Link to="/document-adjusting">{i18n.t("doc_adjusting")}</Link></li>
-                                            <li><Link to="/coming-soon">{i18n.t("img_processing")}</Link></li>
-                                            <li><Link to="/data-labeling">{i18n.t("data_labeling")}</Link></li>
-                                            <li><Link to="/coming-soon">{i18n.t("call_center")}</Link></li>
+                                            {/*<li><Link to="/document-adjusting">{i18n.t("doc_adjusting")}</Link></li>*/}
+                                            {/*<li><Link to="/coming-soon">{i18n.t("img_processing")}</Link></li>*/}
+                                            {/*<li><Link to="/data-labeling">{i18n.t("data_labeling")}</Link></li>*/}
+                                            {/*<li><Link to="/coming-soon">{i18n.t("call_center")}</Link></li>*/}
                                         </ul>
                                     </div>
                                 </div>

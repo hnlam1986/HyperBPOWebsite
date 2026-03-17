@@ -122,7 +122,7 @@ export class DocumentAdjusting extends Component {
                                     <h2>{i18n.t("want_to_work_with_us_intro")}</h2>
                                     {/*<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud consectetur voluptatem accusantium doloremque adipiscing elit.</p>*/}
                                     <div className="hire-btn">
-                                        <a className="default-btn" href="tel:+84776117770">{i18n.t("call_now")}<span></span></a>
+                                        <a className="default-btn" href="tel:12345678">{i18n.t("call_now")}<span></span></a>
                                         <a className="default-btn-one" href="/contact">{i18n.t("contact_us")}<span></span></a>
                                     </div>
                                 </div>

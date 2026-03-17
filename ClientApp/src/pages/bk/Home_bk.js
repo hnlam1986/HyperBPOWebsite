@@ -57,7 +57,7 @@ export class Home extends Component {
                                     <h2>{i18n.t("our_services")}</h2>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-6">
+                            <div className="col-lg-4 col-md-6">
                                 <div className="single-services-item">
                                     <div className="services-icon">
                                         <img src="/assets/img/icon/services/data-entry.jpg"></img>
@@ -69,7 +69,7 @@ export class Home extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-6">
+                            <div className="col-lg-4 col-md-6">
                                 <div className="single-services-item">
                                     <div className="services-icon">
                                         <img src="/assets/img/icon/services/scanning-service.jpg"></img>
@@ -81,54 +81,54 @@ export class Home extends Component {
                                     </div>
                                 </div>
                             </div>
-                            {/*<div className="col-lg-4 col-md-6">*/}
-                            {/*    <div className="single-services-item">*/}
-                            {/*        <div className="services-icon">*/}
-                            {/*            <img src="/assets/img/icon/services/document_adjustment.jpg"></img>*/}
-                            {/*        </div>*/}
-                            {/*        <h3>{i18n.t("doc_adjusting")}</h3>*/}
-                            {/*        <p>{i18n.t("document_adjusting_service_intro")}</p>*/}
-                            {/*        <div className="services-btn">*/}
-                            {/*            <a href="/document-adjusting" className="read-more"><i className="bi bi-arrow-right-short"></i> {i18n.t("read_more")}</a>*/}
-                            {/*        </div>*/}
-                            {/*    </div>*/}
-                            {/*</div>*/}
-                            {/*<div className="col-lg-4 col-md-6">*/}
-                            {/*    <div className="single-services-item">*/}
-                            {/*        <div className="services-icon">*/}
-                            {/*            <img src="/assets/img/icon/services/image-processing.jpg"></img>*/}
-                            {/*        </div>*/}
-                            {/*        <h3>{i18n.t("img_processing")}</h3>*/}
-                            {/*        <p>{i18n.t("image_processing_service_intro")}</p>*/}
-                            {/*        <div className="services-btn">*/}
-                            {/*            <a href="/coming-soon" className="read-more"><i className="bi bi-arrow-right-short"></i> {i18n.t("read_more")}</a>*/}
-                            {/*        </div>*/}
-                            {/*    </div>*/}
-                            {/*</div>*/}
-                            {/*<div className="col-lg-4 col-md-6">*/}
-                            {/*    <div className="single-services-item">*/}
-                            {/*        <div className="services-icon">*/}
-                            {/*            <img src="/assets/img/icon/services/labeling.jpg"></img>*/}
-                            {/*        </div>*/}
-                            {/*        <h3>{i18n.t("data_labeling")}</h3>*/}
-                            {/*        <p>{i18n.t("data_labeling_service_intro")}</p>*/}
-                            {/*        <div className="services-btn">*/}
-                            {/*            <a href="/data-labeling" className="read-more"><i className="bi bi-arrow-right-short"></i> {i18n.t("read_more")}</a>*/}
-                            {/*        </div>*/}
-                            {/*    </div>*/}
-                            {/*</div>*/}
-                            {/*<div className="col-lg-4 col-md-6">*/}
-                            {/*    <div className="single-services-item">*/}
-                            {/*        <div className="services-icon">*/}
-                            {/*            <img src="/assets/img/icon/services/call-center.jpg"></img>*/}
-                            {/*        </div>*/}
-                            {/*        <h3>{i18n.t("call_center")}</h3>*/}
-                            {/*        <p>{i18n.t("call_center_service_intro")}</p>*/}
-                            {/*        <div className="services-btn">*/}
-                            {/*            <a href="/coming-soon" className="read-more"><i className="bi bi-arrow-right-short"></i> {i18n.t("read_more")}</a>*/}
-                            {/*        </div>*/}
-                            {/*    </div>*/}
-                            {/*</div>*/}
+                            <div className="col-lg-4 col-md-6">
+                                <div className="single-services-item">
+                                    <div className="services-icon">
+                                        <img src="/assets/img/icon/services/document_adjustment.jpg"></img>
+                                    </div>
+                                    <h3>{i18n.t("doc_adjusting")}</h3>
+                                    <p>{i18n.t("document_adjusting_service_intro")}</p>
+                                    <div className="services-btn">
+                                        <a href="/document-adjusting" className="read-more"><i className="bi bi-arrow-right-short"></i> {i18n.t("read_more")}</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="single-services-item">
+                                    <div className="services-icon">
+                                        <img src="/assets/img/icon/services/image-processing.jpg"></img>
+                                    </div>
+                                    <h3>{i18n.t("img_processing")}</h3>
+                                    <p>{i18n.t("image_processing_service_intro")}</p>
+                                    <div className="services-btn">
+                                        <a href="/coming-soon" className="read-more"><i className="bi bi-arrow-right-short"></i> {i18n.t("read_more")}</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="single-services-item">
+                                    <div className="services-icon">
+                                        <img src="/assets/img/icon/services/labeling.jpg"></img>
+                                    </div>
+                                    <h3>{i18n.t("data_labeling")}</h3>
+                                    <p>{i18n.t("data_labeling_service_intro")}</p>
+                                    <div className="services-btn">
+                                        <a href="/data-labeling" className="read-more"><i className="bi bi-arrow-right-short"></i> {i18n.t("read_more")}</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-6">
+                                <div className="single-services-item">
+                                    <div className="services-icon">
+                                        <img src="/assets/img/icon/services/call-center.jpg"></img>
+                                    </div>
+                                    <h3>{i18n.t("call_center")}</h3>
+                                    <p>{i18n.t("call_center_service_intro")}</p>
+                                    <div className="services-btn">
+                                        <a href="/coming-soon" className="read-more"><i className="bi bi-arrow-right-short"></i> {i18n.t("read_more")}</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -142,7 +142,7 @@ export class Home extends Component {
                                     <h2>{i18n.t("want_to_work_with_us_intro")}</h2>
                                     {/*<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud consectetur voluptatem accusantium doloremque adipiscing elit.</p>*/}
                                     <div className="hire-btn">
-                                        <a className="default-btn" href="tel:+84776117770">{i18n.t("call_now")}<span></span></a>
+                                        <a className="default-btn" href="tel:12345678">{i18n.t("call_now")}<span></span></a>
                                         <a className="default-btn-one" href="/contact">{i18n.t("contact_us")}<span></span></a>
                                     </div>
                                 </div>
@@ -190,11 +190,6 @@ export class Home extends Component {
                             <div className="partner-item">
                                 <a href="#0">
                                     <img src="assets/img/partner/moneyforward.jpg" alt="image" className="moneyforward" />
-                                </a>
-                            </div>
-                            <div className="partner-item">
-                                <a href="#0">
-                                    <img src="assets/img/partner/titan.png" alt="image" className="titan" />
                                 </a>
                             </div>
                             

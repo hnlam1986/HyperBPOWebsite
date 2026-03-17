@@ -9,21 +9,21 @@ export function AddLibrary(urlOfTheLibrary) {
     script.async = true;
     document.body.appendChild(script);
 }
-export class CallCenter extends Component {
-    static displayName = CallCenter.name;
+export class DocumentProcessing extends Component {
+    static displayName = DocumentProcessing.name;
 
     render() {
         return (
             <div>
-                <div className="page-title-area call-center">
+                <div className="page-title-area bpo-service">
                     <div className="d-table">
                         <div className="d-table-cell">
                             <div className="container">
                                 <div className="page-title-content">
-                                    <h2>Call Center Service</h2>
+                                    <h2>Document Processing Service</h2>
                                     <ul>
-                                        <li><Link to="index.html">Home</Link></li>
-                                        <li>Call Center Service</li>
+                                        <li><Link to="/">Home</Link></li>
+                                        <li>Document Processing Service</li>
                                     </ul>
                                 </div>
                             </div>
@@ -306,7 +306,7 @@ export class CallCenter extends Component {
                                     <h2>Digitally Transform &amp; Grow Your Business</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud consectetur voluptatem accusantium doloremque adipiscing elit.</p>
                                     <div className="hire-btn">
-                                        <a className="default-btn" href="tel:+84776117770">Call Now<span></span></a>
+                                        <a className="default-btn" href="tel:12345678">Call Now<span></span></a>
                                         <a className="default-btn-one" href="contact.html">Contact Us<span></span></a>
                                     </div>
                                 </div>

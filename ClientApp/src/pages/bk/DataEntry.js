@@ -73,27 +73,7 @@ export class DataEntry extends Component {
                         </div>
                     </div>
                 </section>
-
-                <section className="overview-section pt-100 operation-section pb-100">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-12">
-                                <div className="overview-content">
-                                    <h2>{i18n.t("data_entry_project_title")}</h2>
-                                    <p>{i18n.t("data_entry_document_type")}</p>
-                                    <ul className="features-list">
-                                        <li>
-                                            <span><b>{i18n.t("data_entry_kv_project")}</b><br />{i18n.t("data_entry_kv_project_detail")}</span>
-                                        </li>
-                                        <li> <span><b>{i18n.t("data_entry_titan_project")}</b><br />{i18n.t("data_entry_titan_project_detail")}</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <section className="overview-section pt-100 operation-section pb-100">
+                <section className="overview-section pt-100 operation-section">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-12">
@@ -111,96 +91,70 @@ export class DataEntry extends Component {
                         </div>
                     </div>
                 </section>
-                <section className="services-section-three section-padding bg-grey">
+                <section className="services-section-three section-padding">
                     <div className="container">
                         <div className="row">
-                            <div className="section-title">
+                            <div className="overview-content">
                                 <h2>{i18n.t("implementation_process")}</h2>
                             </div>
-                            <div class="col-lg-12">
-                                <div class="workprocess-single-item">
-                                    <div class="workprocess-icon-box">
-                                        <img src="assets/img/icon/clipboard.png" alt="svg icon"></img>
+                            <div class="col-lg-4">
+                                <div class="single-services-three-item">
+                                    <div class="services-icon">
+                                        <img src="assets/img/icon/keyboard.png" alt="svg icon"></img>
                                     </div>
-                                    <div class="workprocess-info">
-                                        <h3>{i18n.t("receive_documents")}</h3>
-                                        
+                                    <div class="services-three-content">
+                                        <h3>{i18n.t("data_entry")}</h3>
+                                        <p></p>
+                                        <ul class="features-list">
+                                            <li><span>{i18n.t("receive_documents")}</span></li>
+                                            <li><span>{i18n.t("scan_documents")}</span></li>
+                                            <li><span>{i18n.t("enter_data")}</span></li>
+                                            <li><span>{i18n.t("check_data")}</span></li>
+                                            <li><span>{i18n.t("render_and_transfer_data")}</span></li>
+                                            <li><span>{i18n.t("warranty")}</span></li>
+                                        </ul>
                                         
                                     </div>
-                                    <div className="workprocess-number-bg"><span>01</span></div>
                                 </div>
                             </div>
-                            <div class="col-lg-12">
-                                <div class="workprocess-single-item">
-                                    <div class="workprocess-icon-box">
-                                        <img src="assets/img/icon/folder.png" alt="svg icon"></img>
+                            <div class="col-lg-4">
+                                <div class="single-services-three-item">
+                                    <div class="services-icon">
+                                        <img src="assets/img/icon/scanner.jpg" alt="svg icon"></img>
                                     </div>
-                                    <div class="workprocess-info">
-                                        <h3>{i18n.t("scan_documents")}</h3>
-                                        
+                                    <div class="services-three-content">
+                                        <h3>{i18n.t("digitizing")}</h3>
+                                        <p></p>
+                                        <ul class="features-list">
+                                            <li><span>{i18n.t("receive_documents")}</span></li>
+                                            <li><span>{i18n.t("document_scanning")}</span></li>
+                                            <li><span>{i18n.t("content_identification")}</span></li>
+                                            <li><span>{i18n.t("data_formatting")}</span></li>
+                                            <li><span>{i18n.t("quality_control")}</span></li>
+                                            <li><span>{i18n.t("render_and_transfer_data")}</span></li>
+                                        </ul>
                                         
                                     </div>
-                                    <div className="workprocess-number-bg"><span>02</span></div>
                                 </div>
                             </div>
-                            <div class="col-lg-12">
-                                <div class="workprocess-single-item">
-                                    <div class="workprocess-icon-box">
-                                        <img src="assets/img/icon/keyboard_1.png" alt="svg icon"></img>
+                            <div class="col-lg-4">
+                                <div class="single-services-three-item">
+                                    <div class="services-icon">
+                                        <img src="assets/img/icon/scanner.jpg" alt="svg icon"></img>
                                     </div>
-                                    <div class="workprocess-info">
-                                        <h3>{i18n.t("enter_data")}</h3>
-                                        
+                                    <div class="services-three-content">
+                                        <h3>{i18n.t("digitizing")}</h3>
+                                        <p></p>
+                                        <ul class="features-list">
+                                            <li><span>{i18n.t("receive_documents")}</span></li>
+                                            <li><span>{i18n.t("document_scanning")}</span></li>
+                                            <li><span>{i18n.t("content_identification")}</span></li>
+                                            <li><span>{i18n.t("data_formatting")}</span></li>
+                                            <li><span>{i18n.t("quality_control")}</span></li>
+                                            <li><span>{i18n.t("render_and_transfer_data")}</span></li>
+                                        </ul>
 
                                     </div>
-                                    <div className="workprocess-number-bg"><span>03</span></div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="workprocess-single-item">
-                                    <div class="workprocess-icon-box">
-                                        <img src="assets/img/icon/checklist.png" alt="svg icon"></img>
-                                    </div>
-                                    <div class="workprocess-info">
-                                        <h3>{i18n.t("check_data")}</h3>
-                                        
-
-                                    </div>
-                                    <div className="workprocess-number-bg"><span>04</span></div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="workprocess-single-item">
-                                    <div class="workprocess-icon-box">
-                                        <img src="assets/img/icon/file-export.png" alt="svg icon"></img>
-                                    </div>
-                                    <div class="workprocess-info">
-                                        <h3>{i18n.t("render_and_transfer_data")}</h3>
-                                        
-
-                                    </div>
-                                    <div className="workprocess-number-bg"><span>05</span></div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="workprocess-single-item">
-                                    <div class="workprocess-icon-box">
-                                        <img src="assets/img/icon/cloud-server.png" alt="svg icon"></img>
-                                    </div>
-                                    <div class="workprocess-info">
-                                        <h3>{i18n.t("warranty")}</h3>
-                                        {/*<p></p>*/}
-                                        {/*<ul class="features-list">*/}
-                                        {/*    <li><span>{i18n.t("receive_documents")}</span></li>*/}
-                                        {/*    <li><span>{i18n.t("document_scanning")}</span></li>*/}
-                                        {/*    <li><span>{i18n.t("content_identification")}</span></li>*/}
-                                        {/*    <li><span>{i18n.t("data_formatting")}</span></li>*/}
-                                        {/*    <li><span>{i18n.t("quality_control")}</span></li>*/}
-                                        {/*    <li><span>{i18n.t("render_and_transfer_data")}</span></li>*/}
-                                        {/*</ul>*/}
-
-                                    </div>
-                                    <div className="workprocess-number-bg"><span>06</span></div>
                                 </div>
                             </div>
                         </div>
@@ -215,7 +169,7 @@ export class DataEntry extends Component {
                                     <h2>{i18n.t("want_to_work_with_us_intro")}</h2>
                                     {/*<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud consectetur voluptatem accusantium doloremque adipiscing elit.</p>*/}
                                     <div className="hire-btn">
-                                        <a className="default-btn" href="tel:+84776117770">{i18n.t("call_now")}<span></span></a>
+                                        <a className="default-btn" href="tel:12345678">{i18n.t("call_now")}<span></span></a>
                                         <a className="default-btn-one" href="/contact">{i18n.t("contact_us")}<span></span></a>
                                     </div>
                                 </div>
