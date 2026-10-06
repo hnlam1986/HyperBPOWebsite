@@ -11,7 +11,7 @@ export class Footer extends Component {
                 {/*<!-- Start Footer & Subscribe Section -->*/}
                 <section className="footer-subscribe-wrapper">
                     {/*<!-- Start Subscribe Section -->*/}
-                    <div className="subscribe-area">
+                    {/* <div className="subscribe-area">
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-6 col-md-6">
@@ -28,7 +28,7 @@ export class Footer extends Component {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     {/*<!-- End Subscribe Section -->*/}
                     {/*<!-- Start Footer Section -->*/}
                     <div className="footer-area ptb-100">
@@ -37,7 +37,7 @@ export class Footer extends Component {
                                 <div className="col-lg-4 col-md-6 col-sm-6">
                                     <div className="single-footer-widget">
                                         <a className="footer-logo" href="#">
-                                            <img src="assets/img/logo.png" className="white-logo" alt="logo"></img>
+                                            <img src="assets/img/logo-black.png" className="white-logo" alt="logo"></img>
                                         </a>
                                         <p>{i18n.t("following_us_on")}</p>
                                         <ul className="footer-social">
@@ -80,7 +80,7 @@ export class Footer extends Component {
                                             <li><Link to="about-us">{i18n.t("about")}</Link></li>
                                             <li><Link to="/coming-soon">{i18n.t("career")}</Link></li>
                                             <li><Link to="/contact">{i18n.t("contact_us")}</Link></li>
-                                            <li><Link to="/coming-soon">{i18n.t("privacy_policy")}</Link></li>
+                                            <li><Link to="/privacy-policy">{i18n.t("privacy_policy")}</Link></li>
                                             <li><Link to="/coming-soon">{i18n.t("terms_conditions")}</Link></li>
                                         </ul>
                                     </div>
@@ -123,7 +123,7 @@ export class Footer extends Component {
                             <div className="col-lg-6 col-md-6">
                                 <ul>
                                     <li><a href="/coming-soon">{i18n.t("terms_conditions")}</a></li>
-                                    <li><a href="/coming-soon">{i18n.t("privacy_policy")}</a></li>
+                                    <li><a href="/privacy-policy">{i18n.t("privacy_policy")}</a></li>
                                 </ul>
                             </div>
                         </div>

@@ -159,7 +159,7 @@ export class AboutUs extends Component {
                         </div>
                     </div>
                 </section>
-                <section className="partner-section pt-100 pb-70">
+                {/* <section className="partner-section pt-100 pb-70">
                     <div className="container">
                         <div className="partner-title">
 
@@ -209,7 +209,7 @@ export class AboutUs extends Component {
 
                         </div>
                     </div>
-                </section>
+                </section> */}
                 {/*{AddLibrary(*/}
                 {/*    "assets/js/main.js"*/}
                 {/*)}*/}

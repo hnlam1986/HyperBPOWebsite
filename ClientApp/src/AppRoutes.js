@@ -10,6 +10,7 @@ import { ImageProcessing } from "./pages/ImageProcessing";
 import { UnderContraction } from "./pages/ComingSoon";
 import { CallCenter } from "./pages/CallCenter";
 import { Contact } from "./pages/Contact";
+import { PrivacyPolicy } from "./pages/PrivacyPolicy";
 
 const AppRoutes = [
 
@@ -49,6 +50,11 @@ const AppRoutes = [
     {
         path: '/contact',
         element: <Contact />
+    }
+    ,
+    {
+        path: '/privacy-policy',
+        element: <PrivacyPolicy />
     }
     
 ];

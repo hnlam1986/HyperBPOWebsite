@@ -91,8 +91,8 @@ export class NavMenu extends Component {
                     <div className="container">
                         <nav className="navbar navbar-expand-md navbar-light">
                             <a className="navbar-brand" href="/">
-                                <img src="assets/img/logo.png" className="white-logo" alt="logo" />
-                                <img src="assets/img/logo-black.png" className="black-logo" alt="logo" />
+                                <img src="assets/img/logo-black.png" className="white-logo" alt="logo" />
+                                <img src="assets/img/logo.png" className="black-logo" alt="logo" />
                             </a>
                             <div className="navbar-collapse mean-menu" id="navbarSupportedContent" >
                                 <ul className="navbar-nav">

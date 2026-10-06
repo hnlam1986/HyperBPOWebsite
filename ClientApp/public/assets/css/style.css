@@ -5431,3 +5431,17 @@ form.input-form .btn-send{
 .lang-option li {
 	padding: 2px 13px;
 }
+
+.privacy-policy ul {
+	list-style: initial;
+	color: #5f5f5f;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.8;
+	letter-spacing: 0.2px;
+	font-family: 'Catamaran', sans-serif;
+}
+.privacy-policy a {
+	font-weight: bold;
+	color: #ae45d1!important;
+}

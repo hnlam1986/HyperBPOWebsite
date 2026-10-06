@@ -26,7 +26,7 @@ export class Contact extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="contact-section section-padding">
+                {/* <div className="contact-section section-padding">
                     <div className="container">
                         <div className="section-title">
                             <h6 className="sub-title">{i18n.t("lets_talk")}</h6>
@@ -72,8 +72,8 @@ export class Contact extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
-                <section className="contact-info-wrapper bg-grey">
+                </div> */}
+                <section className="contact-section section-padding">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
